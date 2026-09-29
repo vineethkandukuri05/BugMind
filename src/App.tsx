@@ -10,7 +10,7 @@ import { SettingsPanel } from './components/settings/SettingsPanel';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/BugMind">
       <AppProvider>
         <Routes>
           <Route path="/" element={<Landing />} />
